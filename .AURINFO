@@ -1,0 +1,16 @@
+pkgbase = musl-latest
+	pkgdesc = An implementation of the C/POSIX standard library - LATEST branch
+	pkgver = 1.1.3
+	pkgrel = 2
+	url = http://www.musl-libc.org/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	conflicts = musl
+	conflicts = musl-static
+	conflicts = musl-git
+	source = http://www.musl-libc.org/releases/musl-1.1.3.tar.gz
+	options = staticlibs
+
+pkgname = musl-latest
+
